@@ -116,11 +116,11 @@
 
 @media (max-width: 703px) {
     .menu {
-        height: 35rem;
+        height: 31rem;
     }
     .sub-container {
         width: 15rem;
-        top: 37%;
+        top: 34%;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -131,7 +131,7 @@
     .active-subheading .p-container {
         font-size: 0.8rem;
     }
-    .icon-title-container, .icon {
+    .icon-title-container {
         display: none;
     }
     h1 {
@@ -142,6 +142,4 @@
     p {
         font-size: 0.8rem;
     }
-
-
 }
