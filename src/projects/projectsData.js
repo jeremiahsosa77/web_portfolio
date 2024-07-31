@@ -26,8 +26,7 @@ const projects = {
                 <p>
                 Developed a machine learning model to predict stock prices using historical market 
                 data and indicators like MACD, RSI, Stoch, ADX, BBands, and MMO. Executed a responsive web application 
-                with React for real-time stock analysis and portfolio management, incorporating Flask Security for secure 
-                user account management and notifications based on market sentiment analysis and machine learning predictions.
+                with React for real-time stock analysis and portfolio management.
                 </p>
             </>
         ),
@@ -40,9 +39,9 @@ const projects = {
         discription: (
             <>
                 <p>
-                Developed a dynamic Contact List application using Reactjs, facilitating real-time user interactions 
-                and improving usability for over 100 simulated users. Leveraged Flask and Python to create RESTful APIs, handling data operations 
-                such as create, read, update, and delete (CRUD), which upgraded the application's responsiveness and scalability. 
+                Developed a dynamic Contact List application using Reactjs, facilitating real-time user interactions.
+                Handled data operations such as create, read, update, and delete (CRUD), which upgraded the application's 
+                responsiveness and scalability. 
                 </p>
             </>
         ),
