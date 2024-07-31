@@ -56,3 +56,21 @@ h2 {
         font-size: 0.8rem;
     }
 }
+
+@media (max-width: 703px) {
+    #playerStats {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 37rem;
+        height: 2.5rem;
+        top: 2rem;
+    }
+    h1 {
+        font-size: 0.9rem;
+    }
+    h2,
+    h3,
+    p {
+        font-size: 0.8rem;
+    }
+}

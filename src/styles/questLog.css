@@ -1,0 +1,80 @@
+
+.quest-log {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: absolute;
+    top: 1.5rem;
+    right: 20px;
+    width: 325px; /* Adjust width as needed */
+    height: 200px; /* Set the height for the scrolling container */
+    overflow: hidden; /* Prevent the entire container from scrolling */
+    background: linear-gradient(var(--transparent));
+    flex-direction: column;
+    display: flex;
+  }
+  .quest-log-header {
+    text-align: center;
+    font: 1em sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    border-width: 2px;
+    margin-bottom: 1px;
+    font-size: 2rem; 
+    line-height: 1.2; 
+  }
+  
+  .quest-log-content {
+    flex-grow: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  .quest-log-content ,h3 {
+    flex-grow: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+    background: linear-gradient(90deg, var(--transparent), var(--white) 70%);
+    border-radius: var(--radius-right);
+  }
+  
+  .quest {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .quest:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 1100px) {
+    .quest-log {
+      top: 75px; /* Adjust as needed */
+      right: auto; /* Adjust as needed */
+      left: 500px; /* Position on the left */
+      height: 160px; /* Adjust height if needed */
+    }
+    .quest-log-header {
+      font-size: 1.3rem;
+      margin-top: -30px;
+    }
+  }
+
+  @media (max-width: 703px) {
+    .quest-log {
+      top: 0px; /* Adjust as needed */
+      left: 270px;
+      height: 157px; /* Adjust height if needed */
+    }
+
+    .quest-log-header {
+      padding: 4px;
+      font-size: 1rem;
+      margin-top: -15px;
+      position: flex;
+    }
+
+  }
+
+

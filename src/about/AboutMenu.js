@@ -37,7 +37,7 @@ export default class AboutMenu extends Component {
     const activeMenuIcon = 
       activeMenuTitle === "PERSONAL" ? personalIcon : activeMenuTitle === "EDUCATION" ? educationIcon : careerIcon;
 
-      const subheadings = subheadingsData[activeMenuItem];
+      const subheadings = AboutSubheadingsData[activeMenuItem];
 
     return (
       <>

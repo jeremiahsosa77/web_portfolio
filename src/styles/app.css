@@ -24,3 +24,15 @@ button:hover,
 .sub-container-3:not(.active-subheading):hover {
     background-image: linear-gradient(90deg, #ffffff00, #ffffff42 50%, #ffffff00);
 }
+
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.content {
+    margin-left: 350px; /* Adjust this based on the width of the quest log */
+    padding: 20px;
+    color: white;
+}

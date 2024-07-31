@@ -20,6 +20,10 @@ const skills = {
             title: "React JS",
             level: 4,
         },
+        {
+            title: "Angular",
+            level: 1,
+        },
     ],
     2: [
         {
@@ -52,3 +56,5 @@ const skills = {
         },
     ],
 };
+
+export default skills;

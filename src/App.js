@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./nav/Nav.js";
@@ -8,6 +9,7 @@ import Contact from "./contact/Contact";
 import "./styles/app.css"
 import Background from './background/Background.js';
 import PlayerStats from "./playerStats/PlayerStatss.js";
+import QuestLog from "./questlog/QuestLog.js";
 
 
 const App = () => {
@@ -22,8 +24,10 @@ const App = () => {
       <Route path="/contact" element={<Contact />}/>
     </Routes>
     <PlayerStats />
+
   </Router>
   );
 };
 
 export default App;
+
