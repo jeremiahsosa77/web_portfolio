@@ -71,3 +71,28 @@ a {
         
     }
 }
+
+@media (max-width: 703px) {
+    .nav-about, 
+    .nav-skills, 
+    .nav-projects, 
+    .nav-contact {
+        transform: translateX(0);
+    }
+    .nav {
+        top: 58rem;
+        transform: translateX(-50%);
+    }
+    .nav-link {
+        width: 2rem;
+
+    }
+    .nav-link img{
+        width: 2rem;
+        
+    }
+    .page-title {
+        display: none;
+        
+    }
+}
