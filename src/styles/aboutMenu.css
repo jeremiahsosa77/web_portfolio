@@ -116,11 +116,11 @@
 
 @media (max-width: 703px) {
     .menu {
-        height: 29rem;
+        height: 35rem;
     }
     .sub-container {
         width: 15rem;
-        top: 45%;
+        top: 37%;
         left: 50%;
         transform: translateX(-50%);
     }

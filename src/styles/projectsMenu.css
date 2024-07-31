@@ -118,26 +118,26 @@
         width: 20rem;
     }
     .project-sub-container img{
-        width: 20rem;
+        width: 15rem;
     }
     .link-container a {
         margin-top: 1rem;
         width: 50%;
-        height: 2rem;
+        height: 1.5rem;
     }
     .project-items-container {
         margin-top: 0rem;
     }
     .project-item.project-item.activeProject:nth-child(3) .title {
-        font-size: 1.25rem;
-        margin-right: -3rem;
+        font-size: 1rem;
+        margin-right: -1rem;
     }
     .project-item.project-item.activeProject:nth-child(2) .title {
-        font-size: 1.25rem;
-        margin-right: -3rem;
+        font-size: 1rem;
+        margin-right: -1rem;
     }
     .project-item.project-item.activeProject:nth-child(1) .title {
-        font-size: 1.25rem;
-        margin-right: -3rem;
+        font-size: 1rem;
+        margin-right: -1rem;
     }
 }
