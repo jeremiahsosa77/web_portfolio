@@ -114,15 +114,15 @@
     }
     .project-sub-container {
         align-items: center;
-        margin-top: 1rem;
-        width: 15rem;
+        margin-top: 0.2rem;
+        width: 20rem;
     }
     .project-sub-container img{
         width: 20rem;
     }
     .link-container a {
-        margin-top: 1.5rem;
-        width: 20%;
+        margin-top: 1rem;
+        width: 50%;
         height: 2rem;
     }
     .project-items-container {
