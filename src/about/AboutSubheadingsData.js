@@ -43,11 +43,36 @@ const subheadingsData = {
     ],
     3: [
         {
+            title: "2024 Lead Web Developer",
+            content: (
+                <>
+                    <p>
+                        Developed and implemented a responsive ecommerce website for FearTheLamb, using React and Tailwind CSS, enhancing
+                        the user interface and optimizing for mobile responsiveness, resulting in a 20% increase in user activity.
+                    </p>
+                
+                </>
+            )
+        },
+        {
+            title: "2024 LeetCode Tutor",
+            content: (
+                <>
+                    <p>
+                        Mentored 20 students from Texas A&M University - Corpus Christi in data structures, algorithms and python. Implementing personalized learning plans that resulted in
+                        15% of students advancing from easy to medium level LeetCode problems. Aswell as hosting monthly leetcode competitons for
+                        students.
+                    </p>
+                
+                </>
+            )
+        },
+        {
             title: "2024 Headstarter AI SWE Fellow",
             content: (
                 <>
                     <p>
-                        Developed projects from design to deployment working with a team of other fellows
+                        Developed projects from design to deployment working with a team of 3+ other engineering fellows
                         while building AI applications. Coached by engineers working at Amazon, Bloomberg, and
                         Capital One.
                     </p>
