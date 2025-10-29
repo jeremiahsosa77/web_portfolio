@@ -25,18 +25,29 @@ export default class ProjectsMenu extends Component {
             <img src={project.image} alt={project.title}></img>
             <div>{project.discription}</div>
             <div className='link-container'>
-                <a 
-                href={project.github} 
-                target='_blank' 
-                rel='noopener noreferrer'>
-                    GITHUB (coming soon...)
-                </a>
-                <a 
-                href={project.demo} 
-                target='_blank' 
-                rel='noopener noreferrer'>
-                    DEMO (coming soon)
-                </a>
+                {project.github && project.github !== 'https://github.com' ? (
+                  <a
+                    href={project.github}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    GITHUB
+                  </a>
+                ) : (
+                  <span className='disabled-link'>GITHUB (coming soon...)</span>
+                )}
+
+                {project.demo && project.demo !== 'https://netlify.com' ? (
+                  <a
+                    href={project.demo}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    DEMO
+                  </a>
+                ) : (
+                  <span className='disabled-link'>DEMO (coming soon)</span>
+                )}
             </div>
         </div>
     ));
