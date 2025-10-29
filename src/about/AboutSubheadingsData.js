@@ -5,10 +5,8 @@ const subheadingsData = {
             content: (
                 <>
                     <p>
-                        I am an undergraduate student at Texas A&M University - Corpus Christi, majoring in 
-                        Computer Science and minoring in Information Systems. I like gaming, working out, sports,
-                        dogs, cars, and of course technology. Connect with me on linkedin: www.linkedin.com/in/jeremiah-sosa
-                        or contact me through the contact page!
+                        Hello, I'm Jeremiah Sosa and am currently a Computer Science student at the University of Texas at San Antonio (UTSA). I was previously an AI Student Researcher at TAMUCC where I worked with Python, SQL, docker, PGAdmin and many other tools. 
+                        I am enthusiastic to contribute to building innovative software and am open to internship opportunities or any other opportunities to help me grow as an engineer. Please feel free to connect or reach out or contact me through the contact page!
                     </p>
                 
                 </>
@@ -21,8 +19,8 @@ const subheadingsData = {
             content: (
                 <>
                     <p>
-                        Currently an undergraduate at TAMUCC, working towards a Bachelors degree in Computer Science
-                        and minor in Information Systems while also pursuing internships.
+                        Currently an undergraduate at UTSA, working towards a Bachelors degree in Computer Science
+                        while also pursuing internships and passion projects to further enhance my skills as a software engineer.
                     </p>
                 
                 </>
@@ -33,7 +31,7 @@ const subheadingsData = {
             content: (
                 <>
                     <p>
-                        Achieved a Diploma from graduating from Veteran Memorial Highschool. With a final gpa 
+                        Achieved a Diploma from graduating from Veteran Memorial Highschool. With a final GPA 
                         of 3.8 and making final 4 in the state of Texas for football.
                     </p>
                 
@@ -43,39 +41,49 @@ const subheadingsData = {
     ],
     3: [
         {
-            title: "2024 Lead Web Developer",
+            title: "2025 Spectrum Sales Associate",
             content: (
                 <>
                     <p>
-                        Developed and implemented a responsive ecommerce website for FearTheLamb, using React and Tailwind CSS, enhancing
-                        the user interface and optimizing for mobile responsiveness, resulting in a 20% increase in user activity.
+                        Engage with customers to identify their communication and entertainment needs, recommend tailored Spectrum products and services, and drive sales through consultative selling techniques while maintaining strong product knowledge, achieving or exceeding monthly performance goals, and ensuring a positive customer experience through professional support and follow-up.
                     </p>
                 
                 </>
             )
         },
         {
-            title: "2024 LeetCode Tutor",
+            title: "2025 AI Student Developer",
             content: (
                 <>
                     <p>
-                        Mentored 20 students from Texas A&M University - Corpus Christi in data structures, algorithms and python. Implementing personalized learning plans that resulted in
-                        15% of students advancing from easy to medium level LeetCode problems. Aswell as hosting monthly leetcode competitons for
-                        students.
+                        Enhanced Semaphore AI platform by maintaining and improving production scale environmental forecasting pipelines, processing
+real time data from NOAA, NDBC, and The Weather Company APIs to generate 120+ hour predictions for coastal marine
+ecosystems serving stakeholders including Texas Parks & Wildlife and Coast Guard.
                     </p>
                 
                 </>
             )
         },
         {
-            title: "2024 Headstarter AI SWE Fellow",
+            title: "2024 Software Engineering Fellow",
             content: (
                 <>
                     <p>
-                        Developed projects from design to deployment working with a team of 3+ other engineering fellows
-                        while building AI applications. Coached by engineers working at Amazon, Bloomberg, and
-                        Capital One.
+                        Developed and deployed 5+ AI apps and APIs using Next.js, OpenAI, Pinecone, and StripeAPI. Addressing tech industry
+challenges such as customer satisfaction and customer acquisition in a 7 week period with the guidance of professional engineers.
                     </p>
+                
+                </>
+            )
+        },
+        {
+            title: "2024 Data Structures Tutor",
+            content: (
+                <>
+                    <p>
+                        Mentored 20 students in data structures, algorithms and python, implementing personalized learning plans that resulted in 15%
+of students advancing from easy to medium level LeetCode problems.
+</p>
                 
                 </>
             )
