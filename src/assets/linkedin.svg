@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Improved LinkedIn circular icon (48x48) -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true">
+<!-- Glassy LinkedIn "in" icon (64x64) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true">
   <defs>
-    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
-      <feOffset result="offOut" in="SourceAlpha" dx="0" dy="2"/>
-      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="3"/>
-      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+    <radialGradient id="bgGrad" cx="30%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#2B76D9" />
+      <stop offset="100%" stop-color="#0A66C2" />
+    </radialGradient>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feOffset dx="0" dy="2" result="off" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
   </defs>
-  <rect width="48" height="48" rx="10" fill="#0A66C2" filter="url(#shadow)" />
-  <g transform="translate(6,8) scale(0.75)">
-    <path fill="#fff" d="M8 12h3v12H8zM9.5 8.5a1.8 1.8 0 1 0 0-3.601 1.8 1.8 0 0 0 0 3.601zM15 12h2.2v1.6h.03c.3-.6 1.04-1.6 2.64-1.6 2.82 0 3.34 1.86 3.34 4.28V24H21v-6.9c0-1.65-.03-3.77-2.3-3.77-2.3 0-2.66 1.8-2.66 3.66V24H15z" />
-  </g>
+
+  <!-- Background circle with gradient -->
+  <circle cx="32" cy="32" r="28" fill="url(#bgGrad)" filter="url(#softShadow)" />
+
+  <!-- Glassy highlight -->
+  <path d="M12,22 C20,12 44,10 52,18 C49,10 38,6 28,10 C18,14 12,22 12,22 Z" fill="#FFFFFF" opacity="0.12" />
+  <ellipse cx="34" cy="24" rx="14" ry="6" fill="#FFFFFF" opacity="0.06" />
+
+  <!-- White rounded 'in' letters centered -->
+  <text x="32" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="28" fill="#FFFFFF">in</text>
 </svg>
