@@ -4,14 +4,13 @@ import projectthree from "../assets/project-3.png";
 
 const projects = {
     1: {
-        title: "AI Chat Application",
+        title: "Semaphore",
         image: projectone,
         discription: (
             <>
                 <p>
-                An AI chatbot application, made with Next.js, the OpenAI API, and AWS. Designed 
-                a smooth chat interface using Next.js and connecting it to the OpenAI API for intelligent responses. 
-                With AWS providing robust hosting and backend support, ensuring the chatbot is scalable and responsive.
+                Built a FastAPI microservice for time series weather data and ML forecasts, exposing input/output endpoints with auto docs, and
+orchestrating predictions from TensorFlow (.h5) models using a DSPEC driven pipeline.
                 </p>
             </>
         ),
