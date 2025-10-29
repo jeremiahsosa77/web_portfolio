@@ -14,22 +14,21 @@ orchestrating predictions from TensorFlow (.h5) models using a DSPEC driven pipe
                 </p>
             </>
         ),
-        github: "https://github.com",
+        github: "https://github.com/conrad-blucher-institute/semaphore",
         demo: "https://netlify.com",
     },
     2: {
-        title: "ML Stock Price Predictor",
+        title: "Flare",
         image: projecttwo,
         discription: (
             <>
                 <p>
-                Developed a machine learning model to predict stock prices using historical market 
-                data and indicators like MACD, RSI, Stoch, ADX, BBands, and MMO. Executed a responsive web application 
-                with React for real-time stock analysis and portfolio management.
+                Built a responsive Vue 3 dashboard with Highcharts to visualize AI ensemble forecasts (median + 5th/95th ribbon), including
+time-zone aware axes, tooltips, and live CSV updates served from the backend (Semaphore)
                 </p>
             </>
         ),
-        github: "https://github.com",
+        github: "https://github.com/conrad-blucher-institute/Flare",
         demo: "https://netlify.com",
     },
     3: {
